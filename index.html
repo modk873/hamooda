@@ -9,16 +9,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="description" content="أرشيف التراث الثقافي والتاريخي للدول العربية - مخطوطات، تسجيلات، وصور قديمة">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html"><h1>أرشيف الدول العربية</h1></a>
+                <a href="index.html">
+                    <h1>أرشيف الدول العربية</h1>
+                    <p>نافذة على التراث الثقافي والتاريخي</p>
+                </a>
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="index.html" class="active">الرئيسية</a></li>
                     <li><a href="qatar.html">قطر</a></li>
                     <li><a href="jordan.html">الأردن</a></li>
                     <li><a href="sudan.html">السودان</a></li>
@@ -29,6 +33,13 @@
         </div>
     </header>
 
+    <section class="hero">
+        <div class="container">
+            <h1>التراث الثقافي والتاريخي</h1>
+            <p>نافذة على تاريخ وحضارة الدول العربية من خلال المخطوطات والتسجيلات والصور القديمة</p>
+        </div>
+    </section>
+
     <section class="cultural-heritage">
         <div class="container">
             <h2 class="section-title">التراث الثقافي والتاريخي</h2>
@@ -38,14 +49,32 @@
                     <h3>المخطوطات</h3>
                     <div class="heritage-items">
                         <div class="heritage-item">
-                            <img src="images/palestine-manuscripts-1.jpg" alt="مخطوطة فلسطينية قديمة">
+                            <div class="image-container">
+                                <img src="images/palestine-manuscripts-1.jpg" alt="مخطوطة فلسطينية قديمة">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>مخطوطة تاريخية</h4>
                             <p>مخطوطة تعود للقرن التاسع عشر تتناول تاريخ فلسطين</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> القرن التاسع عشر</span>
+                                <span><i class="fas fa-map-marker-alt"></i> فلسطين</span>
+                            </div>
                         </div>
                         <div class="heritage-item">
-                            <img src="images/palestine-manuscripts-2.jpg" alt="مخطوطة أدبية">
+                            <div class="image-container">
+                                <img src="images/palestine-manuscripts-2.jpg" alt="مخطوطة أدبية">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>مخطوطة أدبية</h4>
                             <p>مجموعة من القصائد والأشعار التراثية الفلسطينية</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> القرن الثامن عشر</span>
+                                <span><i class="fas fa-map-marker-alt"></i> فلسطين</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -54,14 +83,32 @@
                     <h3>التسجيلات</h3>
                     <div class="heritage-items">
                         <div class="heritage-item">
-                            <img src="images/palestine-recordings-1.jpg" alt="تسجيل موسيقي قديم">
+                            <div class="image-container">
+                                <img src="images/palestine-recordings-1.jpg" alt="تسجيل موسيقي قديم">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>موسيقى شعبية</h4>
                             <p>تسجيلات للموسيقى الشعبية الفلسطينية التقليدية</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> 1950</span>
+                                <span><i class="fas fa-map-marker-alt"></i> فلسطين</span>
+                            </div>
                         </div>
                         <div class="heritage-item">
-                            <img src="images/palestine-recordings-2.jpg" alt="تسجيل تاريخي">
+                            <div class="image-container">
+                                <img src="images/palestine-recordings-2.jpg" alt="تسجيل تاريخي">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>مقابلات تاريخية</h4>
                             <p>تسجيلات لمقابلات مع شخصيات تاريخية فلسطينية</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> 1960</span>
+                                <span><i class="fas fa-map-marker-alt"></i> فلسطين</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,18 +117,47 @@
                     <h3>الصور القديمة</h3>
                     <div class="heritage-items">
                         <div class="heritage-item">
-                            <img src="images/palestine-old-photos-1.jpg" alt="صورة قديمة للقدس">
+                            <div class="image-container">
+                                <img src="images/palestine-old-photos-1.jpg" alt="صورة قديمة للقدس">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>القدس القديمة</h4>
                             <p>صور نادرة لمدينة القدس في بدايات القرن العشرين</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> 1920</span>
+                                <span><i class="fas fa-map-marker-alt"></i> القدس</span>
+                            </div>
                         </div>
                         <div class="heritage-item">
-                            <img src="images/palestine-old-photos-2.jpg" alt="صورة للحياة التقليدية">
+                            <div class="image-container">
+                                <img src="images/palestine-old-photos-2.jpg" alt="صورة للحياة التقليدية">
+                                <div class="overlay">
+                                    <a href="#" class="view-btn">عرض التفاصيل</a>
+                                </div>
+                            </div>
                             <h4>الحياة التقليدية</h4>
                             <p>صور توثق الحياة اليومية والعادات الفلسطينية القديمة</p>
+                            <div class="item-meta">
+                                <span><i class="fas fa-calendar"></i> 1930</span>
+                                <span><i class="fas fa-map-marker-alt"></i> فلسطين</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h3>اشترك في النشرة البريدية</h3>
+            <p>احصل على آخر التحديثات والمحتوى الجديد مباشرة إلى بريدك الإلكتروني</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                <button type="submit">اشتراك</button>
+            </form>
         </div>
     </section>
 
@@ -91,6 +167,31 @@
                 <div class="footer-logo">
                     <h3>أرشيف الدول العربية</h3>
                     <p>موقع شامل يوثق تاريخ وإنجازات ومعالم الدول العربية</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="qatar.html">قطر</a></li>
+                        <li><a href="jordan.html">الأردن</a></li>
+                        <li><a href="sudan.html">السودان</a></li>
+                        <li><a href="palestine.html">فلسطين</a></li>
+                        <li><a href="about.html">عن الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@arabarchive.com</li>
+                        <li><i class="fas fa-phone"></i> +1234567890</li>
+                        <li><i class="fas fa-map-marker-alt"></i> الدوحة، دولة قطر</li>
+                    </ul>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -101,4 +202,4 @@
 
     <script src="js/main.js"></script>
 </body>
-</html> 
+</html>
